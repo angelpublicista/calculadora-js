@@ -9,7 +9,7 @@ body {
 
 .box-calculator {
   background: white;
-  width: 20%;
+  width: 30%;
   margin: auto;
   margin-top: 3em;
   padding: 2em;
@@ -21,6 +21,7 @@ body {
   color: white;
   padding: 1em;
   box-sizing: border-box;
+  text-align: right;
 }
 .box-calculator .box-keys {
   display: grid;
@@ -37,6 +38,10 @@ body {
   padding: 0.5em;
   text-align: center;
   cursor: pointer;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   transition: all 0.2s;
 }
 .box-calculator .box-keys .key:hover {
