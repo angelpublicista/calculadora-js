@@ -20,9 +20,10 @@ body{
         width: 100%;
         background-color: black;
         color: white;
-        padding: 1em;
+        padding: .5em;
         box-sizing: border-box;
         text-align: right;
+        font-size: 2em;
     }
 
     .box-keys{
@@ -44,6 +45,8 @@ body{
             flex-flow: column nowrap;
             justify-content: center;
             align-items: center;
+            font-size: 1.5em;
+            color: #353535;
             transition: all .2s;
             
             &:hover{
